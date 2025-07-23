@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Aboutus from "./pages/Aboutus";
 import Home from "./pages/Home";
-import Contactus from "./pages/ContactUs";
+import Contactus from "./pages/Contactus";
 import FormToEmail from "./components/FormToEmail";
 
 function App() {
