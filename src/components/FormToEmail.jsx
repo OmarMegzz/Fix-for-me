@@ -1,6 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, forwardRef } from "react";
 
-export default function FormToEmail() {
+const FormToEmail = React.forwardRef((props, ref) => {
   const [locationLink, setLocationLink] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const formRef = useRef();
@@ -50,7 +50,10 @@ export default function FormToEmail() {
   };
 
   return (
-    <div className="relative bg-gray-100 px-4 py-16 min-h-screen flex flex-col items-center justify-center">
+    <div
+      ref={ref}
+      className="relative bg-gray-100 px-4 py-16 min-h-screen flex flex-col items-center justify-center"
+    >
       <div className="absolute inset-0 bg-black opacity-10 z-0"></div>
 
       <div className="relative z-10 w-full max-w-2xl">
@@ -131,4 +134,6 @@ export default function FormToEmail() {
       </div>
     </div>
   );
-}
+});
+
+export default FormToEmail;
