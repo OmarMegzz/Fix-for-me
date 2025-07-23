@@ -5,7 +5,7 @@ function Home({ scrollToForm }) {
     <div
       className="relative flex flex-col items-center justify-center min-h-screen px-4 py-12 text-center "
       style={{
-        backgroundImage: "url('src/assets/mianImg.png')",
+        backgroundImage: "url('public/mianImg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
