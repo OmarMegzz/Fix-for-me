@@ -9,7 +9,7 @@ function Contactus() {
       {/* المحتوى */}
       <div className="relative z-10 w-full max-w-md bg-white bg-opacity-90 backdrop-blur-md shadow-lg rounded-lg p-6 text-gray-800">
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center">
-          تواصل معنا
+          كلمنا لاى استفسار
         </h1>
 
         <div className="space-y-5 text-lg">
@@ -31,7 +31,7 @@ function Contactus() {
               rel="noopener noreferrer"
               className="text-green-600 hover:underline"
             >
-              تواصل عبر واتساب
+              كلمنا على الواتساب
             </a>
           </div>
 

@@ -58,7 +58,7 @@ const FormToEmail = React.forwardRef((props, ref) => {
 
       <div className="relative z-10 w-full max-w-2xl">
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-gray-900">
-          نموذج طلب التصليح
+          من هنا تقدر تطلب تصليحه
         </h1>
 
         {submitted ? (
@@ -101,7 +101,7 @@ const FormToEmail = React.forwardRef((props, ref) => {
                 onClick={handleGetLocation}
                 className="bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 w-fit"
               >
-                استخدم موقعي الحالي
+                دوس هنا لتحديد اللوكيشن بتاعك
               </button>
 
               <input

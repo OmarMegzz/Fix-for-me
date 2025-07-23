@@ -3,22 +3,24 @@ import React from "react";
 const CardData = [
   {
     id: 1,
-    title: "خدمة الصيانة",
-    description: "نقدم خدمات صيانة موثوقة وسريعة لجميع أنواع الأعطال في موقعك.",
-    image: "src/assets/Aboutus.png",
+    title: "خدمتك",
+    description:
+      "طول الوقت هنكون فى خدمتك ولو عندك اى مشكلة هتتحل فى نفس الوقت احنا مش بتوع يومين عمل",
+    image: "/images/customer.png",
   },
   {
     id: 2,
-    title: "فنيين معتمدين",
+    title: "راحتك",
     description:
-      "فريقنا مكوّن من فنيين محترفين ومعتمدين بخبرة عالية في المجال.",
-    image: "src/assets/Aboutus.png",
+      "احنا موجودين هنا عشان نريحك وبالتالى نوفرلك وقتك ومجهودك و لو مشغول ومش فاضى تروح تصلح احنا هنا هنصلحلك",
+    image: "/images/comfortable.jpeg",
   },
   {
     id: 3,
-    title: "خدمة عملاء مميزة",
-    description: "دعم فني وخدمة عملاء متاحة على مدار الساعة لضمان راحتك.",
-    image: "src/assets/Aboutus.png",
+    title: "الامان",
+    description:
+      "الامان ده اهم حاجة بالنسبة لينا هنحافظلك على عربيتك وكمان هيبقا فى ضمان على الصيانةعلى حسب العطل ",
+    image: "/images/safety.jpg",
   },
 ];
 
@@ -29,7 +31,7 @@ function Aboutus() {
 
       <div className="relative z-10 w-full max-w-7xl flex flex-col items-center">
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-12 text-center">
-          من نحن
+          احنا مين
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4">
