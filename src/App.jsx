@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Aboutus from "./pages/AboutUs";
+import Aboutus from "./pages/Aboutus";
 import Home from "./pages/Home";
 import Contactus from "./pages/ContactUs";
 import FormToEmail from "./components/FormToEmail";

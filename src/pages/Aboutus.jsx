@@ -5,20 +5,20 @@ const CardData = [
     id: 1,
     title: "خدمة الصيانة",
     description: "نقدم خدمات صيانة موثوقة وسريعة لجميع أنواع الأعطال في موقعك.",
-    image: "src/assets/aboutUs.png",
+    image: "src/assets/Aboutus.png",
   },
   {
     id: 2,
     title: "فنيين معتمدين",
     description:
       "فريقنا مكوّن من فنيين محترفين ومعتمدين بخبرة عالية في المجال.",
-    image: "src/assets/aboutUs.png",
+    image: "src/assets/Aboutus.png",
   },
   {
     id: 3,
     title: "خدمة عملاء مميزة",
     description: "دعم فني وخدمة عملاء متاحة على مدار الساعة لضمان راحتك.",
-    image: "src/assets/aboutUs.png",
+    image: "src/assets/Aboutus.png",
   },
 ];
 
